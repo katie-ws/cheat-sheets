@@ -1,0 +1,36 @@
+body {
+    background-color: honeydew;
+    font-family: Helvetica;
+  }
+  
+  h1 {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  table {
+    margin: 0 auto;
+    text-align: center;
+    width: 90%;
+  }
+  
+  table, td, th {
+    border-collapse: collapse;
+    border: 1px solid lightseagreen;
+    padding: 10px;
+  }
+  
+  .code {
+    font-family: monospace;
+    background-color: darkslategray;
+    color: white;
+  }
+  
+  thead {
+    background-color: teal;
+  }
+  
+  tr:nth-child(even) {
+    background-color: gainsboro;
+  }
